@@ -1,3 +1,108 @@
 <resources>
     <string name="app_name">Burgers</string>
+    <string-array name="data_id">
+        <item>the-gramercy-tavern-burger-4-pack</item>
+        <item>shake-shack-shackburger-8-pack</item>
+        <item>gotts-cheeseburger-kit-for-4</item>
+        <item>le-big-matt-kit-for-6</item>
+        <item>shake-shack-shackburger-16-pack</item>
+        <item>wagyu-burger-patties-12-pack</item>
+        <item>21–usda–prime–burgers-pack-of-18-8oz-each</item>
+        <item>burger-bomb-kit-for-6</item>
+        <item>double-stack-burger-kit-for-4</item>
+        <item>goldbelly-burger-bash-pack</item>
+    </string-array>
+    <string-array name="data_img">
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/137148/Gramercy-Tavern-Burger-and-Kielbasa-Kit-6.4.21-72ppi-1x1-15.jpg?ixlib=react-9.0.2&amp;auto=format&amp;ar=1%3A1</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134862/shake-shack-shackburger-8-pack.973a5e26836ea86d7e86a327becea2b0.png?ixlib=react-9.0.2&amp;auto=format&amp;ar=1%3A1</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132933/gotts-complete-cheeseburger-kit-for-4.7bdc74104b193427b3fe6eae39e05b5e.jpg?ixlib=react-9.0.2&amp;auto=format&amp;ar=1%3A1</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131436/le-big-matt-kit-for-6.1ddae6e382bb3218eeb0fd5247de115a.jpg?ixlib=react-9.0.2&amp;auto=format&amp;ar=1%3A1</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134022/shake-shack-shackburger-16-pack.316f8b09144db65931ea29e34869287a.png?ixlib=react-9.0.2&amp;auto=format&amp;ar=1%3A1</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/107019/wagyu-burger-patties-12-pack.6116f4cd648dee20651f99e21e7d758b.jpg?ixlib=react-9.0.2&amp;auto=format&amp;ar=1%3A1</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133009/usda–prime-burgers-pack-of-18-8oz-each.274c67f15aa1c0b210dbf51801706670.png?ixlib=react-9.0.2&amp;auto=format&amp;ar=1%3A1</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133829/burger-bomb-kit-for-6.b0430200cfc153c1c15c7997236a6152.jpg?ixlib=react-9.0.2&amp;auto=format&amp;ar=1%3A1</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/122768/handf-double-stack-burger-kit-for-4.4ee9f54b1d6087e9996335f07c13e5cd.jpg?ixlib=react-9.0.2&amp;auto=format&amp;ar=1%3A1</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/66179/the-burger-bash-package.bd9d12d031865940bbe5faf15f1a62f8.jpg?ixlib=react-9.0.2&amp;auto=format&amp;ar=1%3A1</item>
+    </string-array>
+    
+    <string-array name="data_name">
+        <item>Gramercy Tavern</item>
+        <item>Shake Shack</item>
+        <item>Gott\'s Roadside</item>
+        <item>Emmy Squared</item>
+        <item>Shake Shack</item>
+        <item>Westholme Wagyu</item>
+        <item>Peter Luger Steak House</item>
+        <item>Old Homestead Steakhouse</item>
+        <item>Holeman &amp; Finch</item>
+        <item>Pat LaFrieda Meats</item>
+
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>The Gramercy Tavern Burger - 4 Pack</item>
+        <item>Shake Shack ShackBurger® – 8 Pack</item>
+        <item>Gott\'s Complete Cheeseburger Kit for 4</item>
+        <item>Le Big Matt Burger Kit for 6</item>
+        <item>Shake Shack Shackburger® – 16 Pack</item>
+        <item>Wagyu Burger Patties - 12 Pack</item>
+        <item>USDA Prime Burgers - Pack of 18 (8oz each)</item>
+        <item>Burger Bomb Kit for 6</item>
+        <item>Double Stack Burger Kit for 4</item>
+        <item>Goldbelly Burger Bash Pack</item>
+    </string-array>
+
+    <string-array name="data_price">
+        <item>99</item>
+        <item>49</item>
+        <item>99</item>
+        <item>99</item>
+        <item>89</item>
+        <item>129</item>
+        <item>175.95</item>
+        <item>129</item>
+        <item>79</item>
+        <item>109</item>
+    </string-array>
+
+    <string-array name="data_rate">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="data_country">
+        <item>New York, NY</item>
+        <item>New York, NY</item>
+        <item>St. Helena, CA</item>
+        <item>Brooklyn, NY</item>
+        <item>New York, NY</item>
+        <item>Queensland, Australia</item>
+        <item>Brooklyn, NY</item>
+        <item>New York, NY</item>
+        <item>Atlanta, GA</item>
+        <item>North Bergen, NJ</item>
+    </string-array>
+
+    <string-array name="data_about">
+        <item>Indulge in the deliciousness of Gramercy Tavern\'s famous burger with this 4-pack kit. Each kit contains everything you need to recreate the iconic burger experience at home. Whether you\'re hosting a backyard barbecue or enjoying a cozy dinner with family, these juicy burgers are sure to impress your taste buds.</item>
+        <item>Enjoy Shake Shack\'s famous ShackBurger® in the comfort of your home with this 8-pack. Made with high-quality ingredients, it\'s a must-try for burger enthusiasts. Whether you're celebrating a special occasion or just craving a delicious burger, these ShackBurgers® are sure to satisfy.</item>
+        <item>Experience the flavors of Gott\'s Roadside with this complete cheeseburger kit for 4. Made with fresh ingredients and classic recipes, it\'s perfect for a family meal or gathering. Whether you're a cheeseburger aficionado or just looking for a tasty meal, this kit has everything you need to create delicious cheeseburgers at home.</item>
+        <item>Treat yourself to Emmy Squared\'s famous Le Big Matt burger with this kit for 6. It\'s a mouthwatering combination of flavors that\'s sure to impress. Whether you're a burger connoisseur or just love trying new foods, this kit is perfect for sharing with friends or enjoying as a special treat.</item>
+        <item>Upgrade your burger experience with this 16-pack of Shake Shack\'s famous ShackBurger®. Perfect for parties or stocking up for later, it\'s a crowd-pleaser. Whether you're hosting a backyard barbecue or planning a family dinner, these ShackBurgers® are sure to delight everyone at the table.</item>
+        <item>Savor the rich flavors of Westholme Wagyu with these premium Wagyu burger patties. Made from the finest ingredients, they\'re perfect for grilling or. Whether you're a meat lover or just enjoy gourmet food, these Wagyu burger patties are sure to impress.</item>
+        <item>Sink your teeth into the deliciousness of Peter Luger\'s USDA Prime Burgers. This pack of 18 juicy burgers is perfect for grilling season or any occasion where you want to impress your guests. Whether you\'re hosting a backyard barbecue or a family gathering, these USDA Prime Burgers are sure to be a hit.</item>
+        <item>Experience burger bliss with this Burger Bomb Kit for 6 from Old Homestead Steakhouse. Each kit contains all the fixings for a mouthwatering burger experience that\'ll leave you craving more. Whether you're celebrating a special occasion or just looking to elevate your burger game, this kit has everything you need.</item>
+        <item>Get ready for a flavor explosion with Holeman &amp; Finch\'s Double Stack Burger Kit for 4. With premium ingredients and delicious flavors, it\'s perfect for a cozy night in or a backyard barbecue. Whether you're cooking for friends or family, this kit is sure to impress.</item>
+        <item>Join the burger bash with Pat LaFrieda Meats\' Goldbelly Burger Bash Pack. Packed with flavor and ready to impress, it\'s the ultimate burger experience delivered right to your door. Whether you\'re hosting a party or just looking for a delicious meal, this pack has everything you need to satisfy your burger cravings.</item>
+    </string-array>
+
+
 </resources>
