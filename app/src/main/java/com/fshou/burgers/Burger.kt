@@ -7,7 +7,9 @@ import kotlinx.parcelize.Parcelize
 data class Burger (
     val name: String,
     val description: String,
-    val price: Double,
-    val rate: Int,
+    val price: String,
+    val rate: String,
+    val image: String,
+    val country: String,
     val about: String
 ) : Parcelable
