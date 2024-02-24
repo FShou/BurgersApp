@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         val dataCountry  = resources.getStringArray(R.array.data_country)
         val dataAbout = resources.getStringArray(R.array.data_about)
 
+
+
         dataName.forEachIndexed { i, _ ->
             burgersList.add(Burger(
                 name = dataName[i],

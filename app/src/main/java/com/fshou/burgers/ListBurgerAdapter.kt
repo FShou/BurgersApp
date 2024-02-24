@@ -1,5 +1,6 @@
 package com.fshou.burgers
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -9,7 +10,7 @@ import com.fshou.burgers.databinding.ItemLayoutBinding
 
 class ListBurgerAdapter(private val listBurger: ArrayList<Burger>) :
     RecyclerView.Adapter<ListBurgerAdapter.ListViewHolder>() {
-    class ListViewHolder( var binding: ItemLayoutBinding) : ViewHolder(binding.root) {}
+    class ListViewHolder(var binding: ItemLayoutBinding) : ViewHolder(binding.root) {}
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
@@ -28,8 +29,8 @@ class ListBurgerAdapter(private val listBurger: ArrayList<Burger>) :
             rate,
             image,
             country,
-            about
         ) = listBurger[position]
+
         val formattedPrice = "\$$price"
         val formattedRate = "($rate)"
 
@@ -38,12 +39,20 @@ class ListBurgerAdapter(private val listBurger: ArrayList<Burger>) :
             tvName.text = name
             tvPrice.text = formattedPrice
             tvCountry.text = country
-            tvDesc.text =description
+            tvDesc.text = description
             tvRate.text = formattedRate
         }
         Glide
             .with(holder.itemView.context)
             .load(image)
             .into(holder.binding.imgBurger)
+
+        val detailIntent = Intent(holder.itemView.context, DetailActivity::class.java)
+
+        detailIntent.putExtra(DetailActivity.EXTRA_BURGER, listBurger[holder.adapterPosition])
+
+        holder.itemView.setOnClickListener {
+            holder.itemView.context.startActivity(detailIntent)
+        }
     }
 }

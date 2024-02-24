@@ -6,4 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".AboutActivity">
 
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="419dp"
+            android:layout_height="219dp"
+            android:layout_marginTop="4dp"
+            android:background="#F8DEDE" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </FrameLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

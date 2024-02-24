@@ -1,4 +1,3 @@
-
 <resources>
     <string name="app_name">Burgers</string>
     <string name="country">Country</string>
@@ -6,19 +5,27 @@
     <string name="rating">Rating</string>
     <string name="Price">Price</string>
     <string name="name">Name</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+
     <string-array name="data_img">
         <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/137148/Gramercy-Tavern-Burger-and-Kielbasa-Kit-6.4.21-72ppi-1x1-15.jpg</item>
-
-
         <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134862/shake-shack-shackburger-8-pack.973a5e26836ea86d7e86a327becea2b0.png</item>
         <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132933/gotts-complete-cheeseburger-kit-for-4.7bdc74104b193427b3fe6eae39e05b5e.jpg</item>
         <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131436/le-big-matt-kit-for-6.1ddae6e382bb3218eeb0fd5247de115a.jpg</item>
         <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134022/shake-shack-shackburger-16-pack.316f8b09144db65931ea29e34869287a.png</item>
         <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/107019/wagyu-burger-patties-12-pack.6116f4cd648dee20651f99e21e7d758b.jpg</item>
-<!--        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133009/usda–prime-burgers-pack-of-18-8oz-each.274c67f15aa1c0b210dbf51801706670.png</item>-->
         <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133829/burger-bomb-kit-for-6.b0430200cfc153c1c15c7997236a6152.jpg</item>
         <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/122768/handf-double-stack-burger-kit-for-4.4ee9f54b1d6087e9996335f07c13e5cd.jpg</item>
         <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/66179/the-burger-bash-package.bd9d12d031865940bbe5faf15f1a62f8.jpg</item>
+
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/105946/vegan-burger-grill-kit-for-4.1450ccef8c44f7394c93f58450ce67b9.jpg</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/114319/classic-juicy-lucy-burgers-sweet-potato-puffs-8-pack.36c8d716563c1af2d2ca1c1140d36273.jpg</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133972/ribeye-burger-patties-6-pack.dd62bc3b8a096f15429571865ba5d561.jpg</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133421/raouls-burgers-and-steaks-au-poivre-kit.aeafc64d55d6ad7274cb8ba1b562f8eb.jpg</item>
+        <item>https://goldbelly.imgix.net/uploads/showcase_media_asset/image/129511/burger-fries-kit-for-4.ffc10e462cadece50d64f8ce5fd8ea7a.jpg</item>
+
+
     </string-array>
 
     <string-array name="data_name">
@@ -28,11 +35,15 @@
         <item>Emmy Squared</item>
         <item>Shake Shack</item>
         <item>Westholme Wagyu</item>
-<!--        <item>Peter Luger Steak House</item>-->
         <item>Old Homestead Steakhouse</item>
         <item>Holeman &amp; Finch</item>
         <item>Pat LaFrieda Meats</item>
 
+        <item>Lekka Burger</item>
+        <item>5–8 Club</item>
+        <item>Rocker Bros. Meat &amp; Provisions</item>
+        <item>Raoul\'s</item>
+        <item>Rotier\'s Restaurant</item>
     </string-array>
 
     <string-array name="data_desc">
@@ -46,6 +57,13 @@
         <item>Burger Bomb Kit for 6</item>
         <item>Double Stack Burger Kit for 4</item>
         <item>Goldbelly Burger Bash Pack</item>
+
+        <item>Vegan Burger Grill Kit for 4</item>
+        <item>Classic Juicy Lucy Burgers - 8 Pack</item>
+        <item>Brisket Burger - 8 Pack</item>
+        <item>Raoul\'s Burgers and Steaks Au Poivre Kit</item>
+        <item>Famous French Bread Burger + Fries Kit for 4</item>
+
     </string-array>
 
     <string-array name="data_price">
@@ -58,6 +76,12 @@
         <item>129</item>
         <item>79</item>
         <item>109</item>
+
+        <item>79</item>
+        <item>149</item>
+        <item>45</item>
+        <item>249</item>
+        <item>99</item>
     </string-array>
 
     <string-array name="data_rate">
@@ -70,6 +94,12 @@
         <item>5</item>
         <item>4</item>
         <item>5</item>
+
+        <item>4</item>
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
     </string-array>
 
     <string-array name="data_country">
@@ -82,6 +112,13 @@
         <item>New York, NY</item>
         <item>Atlanta, GA</item>
         <item>North Bergen, NJ</item>
+
+        <item>New York, NY</item>
+        <item>Minneapolis, MN</item>
+        <item>Los Angeles, CA</item>
+        <item>New York, NY</item>
+        <item>Nashville, TN</item>
+
     </string-array>
 
     <string-array name="data_about">
@@ -94,6 +131,17 @@
         <item>Experience burger bliss with this Burger Bomb Kit for 6 from Old Homestead Steakhouse. Each kit contains all the fixings for a mouthwatering burger experience that\'ll leave you craving more. Whether you\'re celebrating a special occasion or just looking to elevate your burger game, this kit has everything you need.</item>
         <item>Get ready for a flavor explosion with Holeman &amp; Finch\'s Double Stack Burger Kit for 4. With premium ingredients and delicious flavors, it\'s perfect for a cozy night in or a backyard barbecue. Whether you\'re cooking for friends or family, this kit is sure to impress.</item>
         <item>Join the burger bash with Pat LaFrieda Meats\' Goldbelly Burger Bash Pack. Packed with flavor and ready to impress, it\'s the ultimate burger experience delivered right to your door. Whether you\'re hosting a party or just looking for a delicious meal, this pack has everything you need to satisfy your burger cravings.</item>
+
+
+
+        <item>Lekka Burger offers a delightful vegan burger grill kit for four. Crafted with a combination of plant-based ingredients, these burgers are perfect for those seeking a delicious and cruelty-free meal. Whether you\'re a vegan enthusiast or simply looking to explore new flavors, this kit promises a satisfying dining experience.</item>
+        <item>Indulge in the classic Juicy Lucy burgers along with delectable sweet potato puffs, all in an 8-pack kit from 5-8 Club. These iconic burgers, oozing with cheese and flavor, paired with crispy sweet potato puffs, are a delight for any burger lover. Whether you\'re hosting a gathering or craving a satisfying meal, this kit is sure to impress.</item>
+        <item>Rocker Bros. Meat &amp; Provisions offers a gourmet experience with their ribeye burger patties. Crafted from premium ribeye cuts, these patties are rich in flavor and offer a juicy bite with every bite. Whether you\'re grilling for friends or enjoying a meal with loved ones, these ribeye burger patties are sure to impress.</item>
+        <item>Raoul\'s presents their indulgent Burgers and Steaks Au Poivre kit, offering a culinary delight for steak and burger lovers alike. Made with premium ingredients and seasoned to perfection, these burgers and steaks promise a gourmet dining experience. Whether you\'re celebrating a special occasion or simply craving a luxurious meal, this kit is sure to satisfy.</item>
+        <item>Experience the iconic flavors of Rotier\'s Restaurant with their famous French bread burger and fries kit for four. Made with fresh ingredients and classic recipes, these burgers offer a delightful combination of flavors and textures. Whether you\'re hosting a gathering or simply craving a delicious meal, this kit promises a memorable dining experience.</item>
+
+
+
     </string-array>
 
 
