@@ -65,7 +65,7 @@
         <item>109</item>
     </string-array>
 
-    <string-array name="data_rate">
+    <integer-array name="data_rate">
         <item>5</item>
         <item>5</item>
         <item>5</item>
@@ -76,7 +76,7 @@
         <item>5</item>
         <item>4</item>
         <item>5</item>
-    </string-array>
+    </integer-array>
 
     <string-array name="data_country">
         <item>New York, NY</item>
