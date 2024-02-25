@@ -1,7 +1,6 @@
 package com.fshou.burgers
 
 
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
@@ -18,14 +17,14 @@ class AboutActivity : AppCompatActivity() {
         setContentView(R.layout.activity_about)
 
         val imgProfile: ImageView = findViewById(R.id.img_profile)
-        val tvBack:TextView = findViewById(R.id.tv_back)
+        val tvBack: TextView = findViewById(R.id.tv_back)
         Glide
             .with(this)
             .load(R.drawable.profile)
             .circleCrop()
             .into(imgProfile)
 
-       tvBack.setOnClickListener {
+        tvBack.setOnClickListener {
             finish()
         }
     }

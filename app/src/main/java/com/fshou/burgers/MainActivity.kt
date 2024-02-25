@@ -21,14 +21,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
+        binding.rvBurgers.setHasFixedSize(true)
         installSplashScreen()
         setContentView(binding.root)
-
-        binding.rvBurgers.setHasFixedSize(true)
-
         getBurgers()
         showRecyclerView()
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -38,8 +35,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val aboutIntent = Intent(this@MainActivity, AboutActivity::class.java)
-        when(item.itemId){
-            R.id.action_about -> {
+        when (item.itemId) {
+            R.id.about_page -> {
                 startActivity(aboutIntent)
             }
         }
@@ -47,40 +44,44 @@ class MainActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    private fun getBurgers(){
+    private fun getBurgers() {
 
         val dataName = resources.getStringArray(R.array.data_name)
         val dataImg = resources.getStringArray(R.array.data_img)
         val dataDesc = resources.getStringArray(R.array.data_desc)
         val dataPrice = resources.getStringArray(R.array.data_price)
         val dataRate = resources.getStringArray(R.array.data_rate)
-        val dataCountry  = resources.getStringArray(R.array.data_country)
+        val dataCountry = resources.getStringArray(R.array.data_country)
         val dataAbout = resources.getStringArray(R.array.data_about)
 
 
 
         dataName.forEachIndexed { i, _ ->
-            burgersList.add(Burger(
-                name = dataName[i].trim(),
-                description = dataDesc[i].trim(),
-                price = dataPrice[i].trim(),
-                image = dataImg[i].trim(),
-                rate = dataRate[i].trim(),
-                country = dataCountry[i].trim(),
-                about = dataAbout[i].trim()
-            ))
+            burgersList.add(
+                Burger(
+                    name = dataName[i].trim(),
+                    description = dataDesc[i].trim(),
+                    price = dataPrice[i].trim(),
+                    image = dataImg[i].trim(),
+                    rate = dataRate[i].trim(),
+                    country = dataCountry[i].trim(),
+                    about = dataAbout[i].trim()
+                )
+            )
         }
 
     }
 
-    private fun showRecyclerView(){
-        when(resources.configuration.orientation){
+    private fun showRecyclerView() {
+        when (resources.configuration.orientation) {
             Configuration.ORIENTATION_LANDSCAPE -> {
-                binding.rvBurgers.layoutManager = GridLayoutManager(this,2)
+                binding.rvBurgers.layoutManager = GridLayoutManager(this, 2)
 
-        }
+            }
+
             Configuration.ORIENTATION_PORTRAIT -> {
-                binding.rvBurgers.layoutManager = LinearLayoutManager(this)            }
+                binding.rvBurgers.layoutManager = LinearLayoutManager(this)
+            }
         }
 
         val listBurgerAdapter = ListBurgerAdapter(burgersList)
