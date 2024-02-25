@@ -36,7 +36,7 @@
 
             <TextView
                 android:id="@+id/tv_name"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/name"
                 android:textSize="16sp"
@@ -71,22 +71,22 @@
                 card_view:layout_constraintVertical_bias="0.50" />
 
             <TextView
+                style="@style/TextForeground"
                 android:id="@+id/tv_desc"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/desc"
-                android:textSize="12sp"
+
                 card_view:layout_constraintEnd_toStartOf="@+id/tv_price"
-                card_view:layout_constraintHorizontal_bias="0.0"
                 card_view:layout_constraintStart_toStartOf="parent"
                 card_view:layout_constraintTop_toBottomOf="@+id/tv_name" />
 
             <TextView
                 android:id="@+id/tv_country"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/country"
-                android:textSize="12sp"
+                style="@style/TextForeground"
                 card_view:layout_constraintStart_toStartOf="parent"
                 card_view:layout_constraintTop_toBottomOf="@+id/tv_desc" />
 

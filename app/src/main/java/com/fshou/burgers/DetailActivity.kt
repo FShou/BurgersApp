@@ -1,10 +1,10 @@
 package com.fshou.burgers
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.ActionBar
 import com.bumptech.glide.Glide
 import com.fshou.burgers.databinding.ActivityDetailBinding
 
@@ -18,6 +18,7 @@ class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
+        supportActionBar?.hide()
 
 
         val burger = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
@@ -56,6 +57,9 @@ class DetailActivity : AppCompatActivity() {
 
         binding.actionShare.setOnClickListener {
             startActivity(shareIntent)
+        }
+        binding.tvBack.setOnClickListener {
+            finish()
         }
     }
 }

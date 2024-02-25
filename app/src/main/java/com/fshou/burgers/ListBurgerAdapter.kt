@@ -22,13 +22,14 @@ class ListBurgerAdapter(private val listBurger: ArrayList<Burger>) :
     override fun getItemCount() = listBurger.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
+
         val (
             name,
             description,
             price,
-            rate,
             image,
             country,
+            rate
         ) = listBurger[position]
 
         val formattedPrice = "\$$price"
@@ -42,6 +43,7 @@ class ListBurgerAdapter(private val listBurger: ArrayList<Burger>) :
             tvDesc.text = description
             tvRate.text = formattedRate
         }
+
         Glide
             .with(holder.itemView.context)
             .load(image)

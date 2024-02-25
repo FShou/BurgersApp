@@ -8,8 +8,8 @@ data class Burger (
     val name: String,
     val description: String,
     val price: String,
-    val rate: String,
     val image: String,
     val country: String,
-    val about: String
+    val rate: String,
+    val about: String,
 ) : Parcelable

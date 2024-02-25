@@ -2,8 +2,22 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Burgers" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+         <item name="colorPrimary">@color/cream</item>
+        <item name="colorOnPrimary">#FF885331</item>
+
+
+          </style>
 
     <style name="Theme.Burgers" parent="Base.Theme.Burgers" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/bread</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_burger</item>
+        <item name="postSplashScreenTheme">@style/Theme.Burgers</item>
+    </style>
+
+    <style name="TextForeground">
+        <item name="android:textColor">#A1A1A1</item>
+        <item name="android:textSize">12sp</item>
+    </style>
 </resources>
